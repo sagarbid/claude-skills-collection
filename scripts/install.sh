@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # ─────────────────────────────────────────────────────────────────────────────
 # Claude Code Skills Collection — One-Command Installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/ralphminderhoud/claude-skills-collection/main/scripts/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/sagarbid/claude-skills-collection/main/scripts/install.sh | bash
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -euo pipefail
 
-REPO_URL="https://github.com/ralphminderhoud/claude-skills-collection.git"
+REPO_URL="https://github.com/sagarbid/claude-skills-collection.git"
 REPO_NAME="claude-skills-collection"
 SKILLS_CATEGORIES=("core" "community" "composio")
 

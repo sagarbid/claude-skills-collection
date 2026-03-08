@@ -17,7 +17,7 @@ Complete guide for installing Claude Code skills from this collection.
 Installs all 928 skills in one shot:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ralphminderhoud/claude-skills-collection/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sagarbid/claude-skills-collection/main/scripts/install.sh | bash
 ```
 
 This script will:
@@ -33,7 +33,7 @@ This script will:
 ### Install everything
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cd claude-skills-collection
 
 # macOS / Linux
@@ -50,21 +50,21 @@ Copy-Item -Recurse skills\composio\* "$env:USERPROFILE\.claude\skills\"
 ### Install core skills only (65 skills)
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cp -r claude-skills-collection/skills/core/* ~/.claude/skills/
 ```
 
 ### Install community skills only (31 skills)
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cp -r claude-skills-collection/skills/community/* ~/.claude/skills/
 ```
 
 ### Install Composio skills only (832 skills)
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cp -r claude-skills-collection/skills/composio/* ~/.claude/skills/
 ```
 
@@ -76,7 +76,7 @@ To install specific skills:
 
 ```bash
 # Clone the repo first
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 
 # Copy individual files
 cp claude-skills-collection/skills/core/security-review.md ~/.claude/skills/
@@ -91,7 +91,7 @@ cp claude-skills-collection/skills/composio/github-automation.md ~/.claude/skill
 Download the ZIP archive from GitHub and extract:
 
 ```bash
-curl -L https://github.com/ralphminderhoud/claude-skills-collection/archive/refs/heads/main.zip -o skills.zip
+curl -L https://github.com/sagarbid/claude-skills-collection/archive/refs/heads/main.zip -o skills.zip
 unzip skills.zip
 cp -r claude-skills-collection-main/skills/core/* ~/.claude/skills/
 ```

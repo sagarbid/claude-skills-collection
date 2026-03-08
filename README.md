@@ -26,13 +26,13 @@
 ### Option 1 — One command (installs everything)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ralphminderhoud/claude-skills-collection/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sagarbid/claude-skills-collection/main/scripts/install.sh | bash
 ```
 
 ### Option 2 — Clone and copy manually
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cp -r claude-skills-collection/skills/core/* ~/.claude/skills/
 cp -r claude-skills-collection/skills/community/* ~/.claude/skills/
 cp -r claude-skills-collection/skills/composio/* ~/.claude/skills/
@@ -41,7 +41,7 @@ cp -r claude-skills-collection/skills/composio/* ~/.claude/skills/
 ### Option 3 — Selective install (core only)
 
 ```bash
-git clone https://github.com/ralphminderhoud/claude-skills-collection.git
+git clone https://github.com/sagarbid/claude-skills-collection.git
 cp -r claude-skills-collection/skills/core/* ~/.claude/skills/
 ```
 
